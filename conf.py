@@ -10,6 +10,7 @@ project = 'CRSJSON'
 copyright = '2023, Even Rouault'
 author = 'Even Rouault'
 release = 'v0.6'
+version = 'v0.6'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
