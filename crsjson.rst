@@ -4,12 +4,18 @@
 CRSJSON
 ================================================================================
 
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+
 Introduction
 ------------
 
 CRSJSON is a JSON encoding of
 `WKT2:2019 / ISO-19162:2019: Geographic information - Well-known text representation of coordinate reference systems <http://docs.opengeospatial.org/is/18-010r7/18-010r7.html>`_,
-which itself implements the model of :cite:`ISO19111`.
+which itself implements the model of `ISO19111 <https://www.iso.org/standard/74039.html>`__.
 Apart from the difference of encodings, the semantics is intended to be exactly
 the same as WKT2:2019, and CRSJSON can be morphed losslessly from/into WKT2:2019.
 
@@ -78,7 +84,7 @@ History of the schema
 * v0.2: addition of geoid_model in VerticalCRS object.
 * v0.1: initial version for PROJ 6.2
 
-Specification 
+Specification
 -------------
 
 A CRSJSON text is a JSON object which has, at a minimum, a required ``type`` member,
@@ -1111,3 +1117,11 @@ Reference implementation
 ------------------------
 
 CRSJSON is available as input and output of the `PROJ <https://proj.org>`_ software since PROJ 6.2.
+
+Indices and tables
+-------------------
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
+
